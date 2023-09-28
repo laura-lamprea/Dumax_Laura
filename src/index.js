@@ -46,6 +46,7 @@ return(
                     <Route key={path} exact path={path}>
                       {({ match }) => (
                           <CSSTransition 
+                            key={match}
                             in={match != null}
                             timeout={500}
                             classNames={anim} 
