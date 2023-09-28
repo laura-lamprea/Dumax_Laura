@@ -123,7 +123,7 @@ import logo_light from '../assets/images/creative-logo.png'
     return(
         <div className={`page-main-header ${switchToggle? 'open': ''}`}>
         <div className="main-header-right row">
-          <div className="main-header-left d-lg-none">
+          {/* <div className="main-header-left d-lg-none">
             <div className="logo-wrapper header-logo normal"><a href="#javascript">
               <img className="normallogo" src={creativeLogo} alt=""/>
               <img className="lightlogo" src={logo_light}  alt="" />
@@ -183,7 +183,7 @@ import logo_light from '../assets/images/creative-logo.png'
                 </div>
             </div>
           </form>
-          <div className="d-lg-none mobile-toggle pull-right"><MoreHorizontal onClick={() => dispatch(MobileRightToggle(mobileRightTog))}/></div>
+          <div className="d-lg-none mobile-toggle pull-right"><MoreHorizontal onClick={() => dispatch(MobileRightToggle(mobileRightTog))}/></div> */}
         </div>
       </div>
     )
