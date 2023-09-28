@@ -11,7 +11,11 @@ const ButtonGenerateReport = () => {
 	};
 
 	return (
-		<Button onClick={() => handleClick()} type="button">
+		<Button
+			onClick={() => handleClick()}
+			type="button"
+			style={{ height: "2.5rem", background: "#1a82c5", }}
+		>
 			Generate Report
 		</Button>
 	);

@@ -121,8 +121,13 @@ import logo_light from '../assets/images/creative-logo.png'
   }
 
     return(
+<<<<<<< Updated upstream
         <div className={`page-main-header ${switchToggle? 'open': ''}`}>
         <div className="main-header-right row">
+=======
+        <div className={`page-main-header ${switchToggle? 'open': ''}`} >
+        {/* <div className="main-header-right row"  >
+>>>>>>> Stashed changes
           <div className="main-header-left d-lg-none">
             <div className="logo-wrapper header-logo normal"><a href="#javascript">
               <img className="normallogo" src={creativeLogo} alt=""/>
@@ -184,9 +189,14 @@ import logo_light from '../assets/images/creative-logo.png'
             </div>
           </form>
           <div className="d-lg-none mobile-toggle pull-right"><MoreHorizontal onClick={() => dispatch(MobileRightToggle(mobileRightTog))}/></div>
+<<<<<<< Updated upstream
         </div>
+=======
+        </div> */}
+>>>>>>> Stashed changes
       </div>
     )
 }
 
 export default Header
+
