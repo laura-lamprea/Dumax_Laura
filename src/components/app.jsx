@@ -4,6 +4,7 @@ import Sidebar from '../layout/Sidebar'
 import RightSidebar from '../layout/RightSidebar'
 import Footer from '../layout/Footer'
 import Loader from '../layout/Loader'
+import Navbar from '../layout/CustomNavbar'
 import ThemeCustomize from '../components/common/ThemeCustomize'
 import { ToastContainer } from 'react-toastify';
 
@@ -14,6 +15,7 @@ const AppLayout = ({children}) =>  {
         <div className="page-wrapper">
         <div className="page-body-wrapper">
             <Header/>
+            <Navbar/>
             <Sidebar/>
             <RightSidebar/>
             <div className="page-body">
